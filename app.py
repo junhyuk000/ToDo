@@ -41,7 +41,7 @@ finally:
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index2.html')
 
 # CREATE - 할일 추가
 @app.route('/api/todos', methods=['POST'])
