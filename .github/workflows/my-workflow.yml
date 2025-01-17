@@ -24,4 +24,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest  # 테스트 실행
+          pytest tests/  # 테스트 실행
